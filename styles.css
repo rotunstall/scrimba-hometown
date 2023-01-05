@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+------------------------
+
+CREAM ORANGE:   #F79256
+BEIGE:          #FBD1A2
+SEA GREEN:      #7DCFB6
+SEA BLUE:       #00B2CA
+FLORIDA BLUE:   #1D4E89 
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section {
+    background: url("images/jville-sky-banner-rdy.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 0 15%;
+    color: white;
+    
+}
+
+#hero-title {
+    padding: inherit;
+    margin: inherit;
+    background: #1D4E8985;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    rotate: -15deg;
+    margin-bottom: 25px;
+    font-family: 'Devonshire', cursive;
+    letter-spacing: 5px;
+    
+}
+
+#hero-subtitle {
+    font-weight: 300;
+    text-shadow: 0 0 10px black;
+    background: #1D4E8985;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.activities-section {
+    background-color: #F79256;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    align-items: center;
+    /* color: #FBD1A2; */
+    color: white;
+    text-shadow: 0 0 1px white;
+}
+
+.activities-wrapper {
+    display: flex;
+    column-gap: 50px;
+}
+
+.activities-header {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.activities-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #FBD1A2;
+}
+
+.activities-descr {
+    font-size: 15px;
+}
+
+.guide-section {
+    background-color: #FBD1A2;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.guide-card {
+    background: #457B9D;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 8px solid #1D4E89;
+    box-shadow: 5px 5px 12px grey;
+    display: flex;
+    column-gap: 20px;
+}
+
+.guide-img {
+    width: 150px;
+}
+
+.guide-info {
+text-align: center;
+}
